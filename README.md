@@ -1,5 +1,5 @@
 ### สัมมนาเชิงปฏิบัติการเรื่อง "ไอโอทีสำหรับระบบควบคุมและการเรียนรู้ของเครื่อง"
-### "IoT for COntrol Systems and Machine Learning" Seminar
+### "IoT for COntrol Systems and Machine Learning" Seminar & Workshop
 
 <ul>
 <li /><b>สถานที่ : </b>ภาควิชาฟิสิกส์ คณะวิทยาศาสตร์ มหาวิทยาลัยนเรศวร 
