@@ -64,6 +64,10 @@
 ### เอกสารประกอบ
 
 สไลด์และไฟล์โปรแกรมทั้งหมดรวบรวมไว้ใน Github repository นี้
+<ul>
+  <li /><a href="https://github.com/dewdotninja/nuws24/blob/main/slides/nuws24A.pdf">สไลด์สำหรับภาคเช้า</a>
+  <li /><a href="https://github.com/dewdotninja/nuws24/blob/main/slides/nuws24B.pdf">สไลด์สำหรับภาคบ่าย</a>  
+</ul>
 
 การสัมมนานี้สอดคล้องกับเนื้อหาในหนังสือ "การโปรแกรมไพทอนสำหรับงานควบคุมและฝังตัว" ที่สามารถดาวน์โหลดได้ฟรีทั้งเล่มจากลิงก์ด้านล่างนี้
 
