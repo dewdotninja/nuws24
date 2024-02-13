@@ -3,6 +3,7 @@
 
 <hr>
 <p />  
+  
 ![nuws24_header](https://github.com/dewdotninja/nuws24/assets/37393409/b0b329c4-789a-466b-9406-483445eeb6e3)
 
 <img align=left src="https://i.imgur.com/CzEUVpd.jpg" width=250 /> 
