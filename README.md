@@ -10,7 +10,7 @@
 <ul>
   <li /><b>ชื่อเรื่อง :</b> ไอโอทีสำหรับระบบควบคุมและการเรียนรู้ของเครื่อง 
   <li /><b>Topic :</b> IoT for Control Systems and Machine Learning   
-  <li /><b>วิทยากร :</b> ดร.วโรดม ตู้จินดา <img align=right src="https://drive.google.com/uc?id=1PnXkwtC1bGNlplGY8DqbwMH6gCkhRp8Q" width=80 />
+  <li /><b>วิทยากร :</b> ดร.วโรดม ตู้จินดา <img align=right src="https://github.com/dewdotninja/nuws24/assets/37393409/90b6909b-3dc3-4212-82be-ac7d07ae1261" width=80 />
   <li /><b>สถานที่ :</b> ภาควิชาฟิสิกส์ คณะวิทยาศาสตร์ มหาวิทยาลัยนเรศวร
   <li /><b>วัน-เวลา :</b> เสาร์ 17 กุมภาพันธ์ 2567
 </ul>
