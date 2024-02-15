@@ -13,12 +13,12 @@ from umqtt.robust import MQTTClient
 import ujson
 import network
 
-wifi_ssid = "ningdew"  # Fill in  your wifi info
-wifi_pwd = "ningdew827"
+wifi_ssid = ""  # Fill in  your wifi info
+wifi_pwd = ""
 MQTT_BROKER = "broker.netpie.io"  
-MQTT_CLIENT = "924efa0f-b856-440f-9aee-2ad039c85784"  # Fill in your NETPIE2020 data
-MQTT_USER = "hf7fiG96rw12DfLRJxNkYxYRTFX9fhoM"
-MQTT_PWD = "c6Z8t46CHW9zarDy1beVxetgz5XE91Nm"
+MQTT_CLIENT = ""  # Fill in your NETPIE2020 data
+MQTT_USER = ""
+MQTT_PWD = ""
 PUBLISH_PERIOD = 2000  # milliseconds
 shadow_data = {'led': 0, 'toggle': 0, 'period': 0}
 #time_current = 0  # variables to control publishing period
