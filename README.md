@@ -69,6 +69,43 @@
   <li /><a href="https://github.com/dewdotninja/nuws24/blob/main/slides/nuws24B.pdf">สไลด์สำหรับภาคบ่าย</a>  
 </ul>
 
+<hr>
+
+### แก้ไข/เพิ่มเติม/อัพเดต
+
+#### 20 กพ. 67
+
+ไลบรารี paho-mqtt เวอร์ชันใหม่ที่ 2.0.0 ที่เริ่มใช้วันที่ 11 กพ. 67 มีการเปลี่ยนแปลงโค้ดสำหรับตั้งค่าเริ่มต้น client ทำให้โค้ดที่อยู่ใน notebook บทที่ 8 ตรงส่วนนี้
+
+```python
+Client_ID = ""
+User = ""
+Password = ""
+client = mqtt.Client(client_id=Client_ID,
+                         transport='tcp',
+                         protocol=mqtt.MQTTv311,
+                         clean_session=True)
+client.username_pw_set(User,Password)
+```
+ไม่สามารถทำงานได้ ต้องมีการแก้ไขเป็นดังนี้
+
+```python
+Client_ID = ""
+User = ""
+Password = ""
+client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2,
+                         client_id=Client_ID,
+                         transport='tcp',
+                         protocol=mqtt.MQTTv311,
+                         clean_session=True)
+client.username_pw_set(User,Password)
+```
+
+จะเห็นว่ามีการเพิ่มอาร์กิวเมนต์แรกคือ mqtt.CallbackAPIVersion.VERSION2 ซึ่งจำเป็นต้องมี ดาวน์โหลดโค้ดที่แก้ไขแล้วได้จากลิงก์หนังสือด้านล่าง
+
+<hr>
+
+
 การสัมมนานี้สอดคล้องกับเนื้อหาในหนังสือ "การโปรแกรมไพทอนสำหรับงานควบคุมและฝังตัว" ที่สามารถดาวน์โหลดได้ฟรีทั้งเล่มจากลิงก์ด้านล่างนี้
 
 https://github.com/dewdotninja/py4conemb 
