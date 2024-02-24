@@ -69,6 +69,29 @@
   <li /><a href="https://github.com/dewdotninja/nuws24/blob/main/slides/nuws24B.pdf">สไลด์สำหรับภาคบ่าย</a>  
 </ul>
 
+### คลิปวีดีโอจากการสัมมนา
+
+คลิปวีดีโอบางส่วนจากการสัมมนา โดยได้ตัดส่วนที่เป็นปัญหาออก เสียงจากวีดีโออาจไม่ชัดเจนในบางช่วง
+
+<ul>
+<li /><a href="https://youtu.be/4TmyNaMUU_E?si=5MqifoZwqmclGuPK">คลิป 1/4</a>
+<li /><a href="https://youtu.be/qhON8qKHCUI?si=4PxIYuzaxCobPEGG">คลิป 2/4</a>
+<li /><a href="https://youtu.be/5RudzxRPk_I?si=bHVDShHvyx1J_sOn">คลิป 3/4</a>
+<li /><a href="https://youtu.be/DwMHgGO9GBs?si=Y-iPOIEbCafYILTk">คลิป 4/4</a>
+</ul>
+
+### คลิปวีดีโอเสริม
+
+วีดีโอแนะนำการรันโค้ดจากหนังสือ และในส่วนของบทที่ 8 ที่ไม่สามารถรันได้ในช่วงสัมมนาเนื่องจากปัญหาของ paho-mqtt เวอร์ชัน 2.0.0 
+
+<ul>
+<li /><a href="https://youtu.be/cTvssFFuPXw?si=RJRW-TDf5veUgQKF" target=_blank>คลิปวีดีโอแนะนำหนังสือและโปรแกรม</a>
+<li /><a href="https://youtu.be/P5REf6HBmz0?si=14ktX0IOTdaUbArB">ใช้ NETPIE IoT จำลองจลนศาสตร์แขนกลบน Jupyter notebook</a>
+<li /><a href="https://youtu.be/Dfr7qgxvRS8?si=6LlR_nIbKrHQhWb5">ตัวควบคุมไอโอทีสำหรับหุ่นยนต์สองล้อ (differential drive robot)</a>
+<li /><a href="https://youtu.be/3vH49engcdo?si=U-qlE9JvXggqxU1C">แก้ปัญหากริดเวิลด์เพื่อวางแผนเส้นทางเดินหุ่นยนต์</a>
+
+</ul>
+
 <hr>
 
 ### แก้ไข/เพิ่มเติม/อัพเดต
@@ -101,7 +124,7 @@ client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2,
 client.username_pw_set(User,Password)
 ```
 
-จะเห็นว่ามีการเพิ่มอาร์กิวเมนต์แรกคือ mqtt.CallbackAPIVersion.VERSION2 ซึ่งจำเป็นต้องมี ดาวน์โหลดโค้ดที่แก้ไขแล้วได้จากลิงก์หนังสือด้านล่าง
+จะเห็นว่ามีการเพิ่มอาร์กิวเมนต์แรกคือ mqtt.CallbackAPIVersion.VERSION2 ซึ่งจำเป็นต้องมี ดาวน์โหลดโค้ดที่แก้ไขแล้วได้จากลิงก์หนังสือด้านล่างโดยเลือกไดเรคทอรีย่อย /paho_v2/
 
 <hr>
 
